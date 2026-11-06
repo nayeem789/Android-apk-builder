@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# Gradle start-up script for POSIX systems
+# Designed for building NIOR Music Player APK via CLI
+
+set -e
+
+APP_HOME=$(cd "$(dirname "$0")" && pwd)
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+
+# Locate Java
+if [ -n "$JAVA_HOME" ] ; then
+    JAVACMD="$JAVA_HOME/bin/java"
+else
+    JAVACMD="java"
+fi
+
+if ! command -v "$JAVACMD" >/dev/null 2>&1 ; then
+    echo "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH." >&2
+    echo "Please install JDK 17 or higher to build the Android APK." >&2
+    exit 1
+fi
+
+echo "Building NIOR Music Player APK..."
+exec "$JAVACMD" -jar "$CLASSPATH" "$@"

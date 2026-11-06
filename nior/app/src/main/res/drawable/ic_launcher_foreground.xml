@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Glow Aura Behind N -->
+        <path
+            android:fillColor="#33A855F7"
+            android:pathData="M38,32 C41,32 44,35 44,40 L44,70 C44,75 41,78 38,78 C35,78 32,75 32,70 L32,40 C32,35 35,32 38,32 Z" />
+        <path
+            android:fillColor="#33A855F7"
+            android:pathData="M70,32 C73,32 76,35 76,40 L76,70 C76,75 73,78 70,78 C67,78 64,75 64,70 L64,40 C64,35 67,32 70,32 Z" />
+
+        <!-- Liquid Glass Monogram N Left Stem -->
+        <path
+            android:fillColor="#A855F7"
+            android:pathData="M37,34 C41,34 43,36 43,40 L43,68 C43,72 41,74 37,74 C33,74 31,72 31,68 L31,40 C31,36 33,34 37,34 Z" />
+
+        <!-- Liquid Glass Diagonal Flow with Caustic Curve -->
+        <path
+            android:fillColor="#C084FC"
+            android:pathData="M36,36 L68,66 C72,70 76,71 76,67 L76,40 C76,36 74,34 71,34 C68,34 67,36 67,40 L67,58 L42,35 C39,32 35,33 36,36 Z" />
+
+        <!-- Right Stem -->
+        <path
+            android:fillColor="#9333EA"
+            android:pathData="M71,34 C75,34 77,36 77,40 L77,68 C77,72 75,74 71,74 C67,74 65,72 65,68 L65,40 C65,36 67,34 71,34 Z" />
+
+        <!-- Specular Glass Highlights (Reflections) -->
+        <path
+            android:fillColor="#CCFFFFFF"
+            android:pathData="M34,38 C35,36 37,36 38,36 C39,36 40,37 40,39 L40,54 C39,52 37,50 34,51 Z" />
+        <path
+            android:fillColor="#88E9D5FF"
+            android:pathData="M68,38 C69,36 71,36 72,36 C73,36 74,37 74,39 L74,54 C73,52 71,50 68,51 Z" />
+
+        <!-- Liquid Audio Waveform Crossing Center -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M24,54 L34,54 L38,44 L44,64 L50,47 L56,61 L62,49 L68,58 L74,54 L84,54" />
+
+        <!-- Musical Note Accent Floating Right -->
+        <path
+            android:fillColor="#E9D5FF"
+            android:pathData="M78,41 C78,43 76.5,44.5 75,44.5 C73.5,44.5 72,43 72,41 C72,39.5 73.5,38 75,38 C76.5,38 78,39.5 78,41 Z" />
+        <path
+            android:strokeColor="#E9D5FF"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M77,41 L77,32 L83,30 L83,34" />
+    </group>
+</vector>
